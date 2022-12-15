@@ -1,4 +1,4 @@
-package DSA_Practice;
+package DSA_Practice.PatternProblems;
 
 //     *        (2,1) 
 //   * * *      (1,3)
@@ -7,7 +7,7 @@ package DSA_Practice;
 //     *        (2,1)
 import java.util.Scanner;
 
-public class diamondPattern {
+public class solidDiamondPattern {
 
 	public static void bluePrint(int length) {
 		int space = length / 2;
@@ -39,8 +39,8 @@ public class diamondPattern {
 			for (int x = 1; x <= step; x++) {
 				System.out.print("*\t");
 			}
-//			System.out.print("* ");
-//			System.out.println("("+space+","+step+")");
+			// System.out.print("* ");
+			// System.out.println("("+space+","+step+")");
 			if (i <= length / 2) {
 				space--;
 				step += 2;

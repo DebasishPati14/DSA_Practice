@@ -1,4 +1,4 @@
-package DSA_Practice;
+package DSA_Practice.PatternProblems;
 
 import java.util.Scanner;
 

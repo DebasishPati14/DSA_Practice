@@ -1,4 +1,4 @@
-package DSA_Practice;
+package DSA_Practice.PatternProblems;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class hollowDiamondPattern {
 		// System.out.print(j);
 		// }
 		// }
-		System.out.println("Enter Length");
+		System.out.print("Enter Length");
 		Scanner scan = new Scanner(System.in);
 		int length = scan.nextInt();
 		int star = length / 2;
