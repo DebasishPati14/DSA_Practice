@@ -11,7 +11,7 @@ import java.util.Scanner;
             1
 
  */
-public class numberDiamondPattern {
+public class NumberDiamondPattern {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter length: ");

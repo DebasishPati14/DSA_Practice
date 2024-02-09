@@ -2,7 +2,7 @@ package com.patterns;
 
 import java.util.Scanner;
 
-public class rightAngledFibonacciPattern {
+public class RightAngledFibonacciPattern {
     public static void main(String[] args) {
         System.out.print("Enter length: ");
         Scanner scan = new Scanner(System.in);

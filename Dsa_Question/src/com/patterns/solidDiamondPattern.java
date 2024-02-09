@@ -7,7 +7,7 @@ package com.patterns;
 //     *        (2,1)
 import java.util.Scanner;
 
-public class solidDiamondPattern {
+public class SolidDiamondPattern {
 
 	public static void bluePrint(int length) {
 		int space = length / 2;

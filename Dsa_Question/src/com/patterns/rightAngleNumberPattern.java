@@ -2,7 +2,7 @@ package com.patterns;
 
 import java.util.*;
 
-public class rightAngleNumberPattern {
+public class RightAngleNumberPattern {
     public static void main(String[] args) {
         System.out.print("Enter Length");
         Scanner scan = new Scanner(System.in);

@@ -11,7 +11,7 @@ import java.util.Scanner;
                  *   *
                  *
  */
-public class arrowPattern {
+public class ArrowPattern {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("enter length: ");
