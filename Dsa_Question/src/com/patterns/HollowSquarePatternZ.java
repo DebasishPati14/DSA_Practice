@@ -1,4 +1,4 @@
-package DSA_Practice.PatternProblems;
+package com.patterns;
 
 import java.util.*;
 /*

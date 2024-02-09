@@ -1,4 +1,4 @@
-package DSA_Practice.PatternProblems;
+package com.patterns;
 
 //     *        (2,1) 
 //   * * *      (1,3)

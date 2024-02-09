@@ -1,4 +1,4 @@
-package DSA_Practice;
+package com.mathsLogic;
 
 import java.util.Scanner;
 
