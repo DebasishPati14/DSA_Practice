@@ -1,0 +1,469 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "DifferenceOfTwoArrays",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.arrayQuestions.DifferenceOfTwoArrays",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BarChart",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.arrayQuestions.BarChart",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "FindElement",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.arrayQuestions.FindElement",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "SpanOfArray",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.arrayQuestions.SpanOfArray",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "SumOfTwoArrays",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.arrayQuestions.SumOfTwoArrays",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "AnyBaseAddition",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.mathsLogic.AnyBaseAddition",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "AnyBaseMultiplication",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.mathsLogic.AnyBaseMultiplication",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "AnyBaseSubtraction",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.mathsLogic.AnyBaseSubtraction",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "AnyBaseToAnyBase",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.mathsLogic.AnyBaseToAnyBase",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "AnyBaseToDecimal",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.mathsLogic.AnyBaseToDecimal",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "BenjaminBulb",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.mathsLogic.BenjaminBulb",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "DecimalToAnyBase",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.mathsLogic.DecimalToAnyBase",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "DigitFrequency",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.mathsLogic.DigitFrequency",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "InverseNumber",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.mathsLogic.InverseNumber",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "KaprekersConstant",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.mathsLogic.KaprekersConstant",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "PrimeFactorisation",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.mathsLogic.PrimeFactorisation",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "PythagorinTriplet",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.mathsLogic.PythagorinTriplet",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "ArrowPattern",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.ArrowPattern",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "ArrowPattern_B",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.ArrowPattern_B",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "DiamondPattern",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.DiamondPattern",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "HollowSquarePatternZ",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.HollowSquarePatternZ",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "HourGlassPattern",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.HourGlassPattern",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "ImportantNumberPattern",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.ImportantNumberPattern",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "NumberDiamondPattern",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.NumberDiamondPattern",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "PatternVwithNumber",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.PatternVwithNumber",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "PyramidPattern",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.PyramidPattern",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "RightAngleNumberPattern",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.RightAngleNumberPattern",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "RightAngledFibonacciPattern",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.RightAngledFibonacciPattern",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "RightAngledPattern",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.RightAngledPattern",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "SlashPattern",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.SlashPattern",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "SolidDiamondPattern",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.SolidDiamondPattern",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "SwastikPattern",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.SwastikPattern",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "hollowDiamondPattern",
+            "request": "launch",
+            "mainClass": "Dsa_Question.src.com.patterns.hollowDiamondPattern",
+            "projectName": "DSA_Practice_2f58d1f0"
+        },
+        {
+            "type": "java",
+            "name": "BarChart(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.arrayQuestions.BarChart",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "FindElement(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.arrayQuestions.FindElement",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "SpanOfArray(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.arrayQuestions.SpanOfArray",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "SumOfTwoArrays(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.arrayQuestions.SumOfTwoArrays",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "AnyBaseAddition(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.mathsLogic.AnyBaseAddition",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "AnyBaseMultiplication(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.mathsLogic.AnyBaseMultiplication",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "AnyBaseSubtraction(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.mathsLogic.AnyBaseSubtraction",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "AnyBaseToAnyBase(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.mathsLogic.AnyBaseToAnyBase",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "AnyBaseToDecimal(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.mathsLogic.AnyBaseToDecimal",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "BenjaminBulb(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.mathsLogic.BenjaminBulb",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "DecimalToAnyBase(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.mathsLogic.DecimalToAnyBase",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "DigitFrequency(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.mathsLogic.DigitFrequency",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "InverseNumber(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.mathsLogic.InverseNumber",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "KaprekersConstant(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.mathsLogic.KaprekersConstant",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PrimeFactorisation(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.mathsLogic.PrimeFactorisation",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PythagorinTriplet(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.mathsLogic.PythagorinTriplet",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "ArrowPattern(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.ArrowPattern",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "ArrowPattern_B(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.ArrowPattern_B",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "DiamondPattern(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.DiamondPattern",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "HollowSquarePatternZ(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.HollowSquarePatternZ",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "HourGlassPattern(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.HourGlassPattern",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "ImportantNumberPattern(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.ImportantNumberPattern",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "NumberDiamondPattern(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.NumberDiamondPattern",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PatternVwithNumber(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.PatternVwithNumber",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PyramidPattern(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.PyramidPattern",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "RightAngleNumberPattern(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.RightAngleNumberPattern",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "RightAngledFibonacciPattern(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.RightAngledFibonacciPattern",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "RightAngledPattern(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.RightAngledPattern",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "SlashPattern(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.SlashPattern",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "SolidDiamondPattern(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.SolidDiamondPattern",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "SwastikPattern(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.SwastikPattern",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "hollowDiamondPattern(1)",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.patterns.hollowDiamondPattern",
+            "projectName": "Dsa_Question"
+        }
+    ]
+}
