@@ -1,4 +1,4 @@
-package com.arrayQuestions;
+package com.array_questions;
 
 import java.util.Scanner;
 

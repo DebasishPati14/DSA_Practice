@@ -1,4 +1,4 @@
-package com.mathsLogic;
+package com.maths_logic;
 
 import java.util.Arrays;
 import java.util.Scanner;

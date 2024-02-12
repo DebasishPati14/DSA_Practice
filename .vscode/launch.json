@@ -8,6 +8,13 @@
             "type": "java",
             "name": "DifferenceOfTwoArrays",
             "request": "launch",
+            "mainClass": "Dsa_Question/com.array_questions.DifferenceOfTwoArrays",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "DifferenceOfTwoArrays",
+            "request": "launch",
             "mainClass": "Dsa_Question/com.arrayQuestions.DifferenceOfTwoArrays",
             "projectName": "Dsa_Question"
         },
