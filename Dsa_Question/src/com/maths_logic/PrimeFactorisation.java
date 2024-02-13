@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class PrimeFactorisation {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int number = 120;
 		int factor = 2;
 		while (number > 1) {

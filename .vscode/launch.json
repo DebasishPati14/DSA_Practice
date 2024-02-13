@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LargestAreaHistogram",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.LargestAreaHistogram",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "StockSpan",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.StockSpan",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "NextSmallerElementToLeft",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.NextSmallerElementToLeft",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "NextGreaterElementToLeft",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.NextGreaterElementToLeft",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "NextSmallerElementToRight",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.NextSmallerElementToRight",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "NextGreaterElementToRight2",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.NextGreaterElementToRight2",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "NextGreaterElementToRight",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.NextGreaterElementToRight",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "BalancedBracket",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.BalancedBracket",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "DuplicateBracket",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.DuplicateBracket",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "StackTest",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.StackTest",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
             "name": "DifferenceOfTwoArrays",
             "request": "launch",
             "mainClass": "Dsa_Question/com.array_questions.DifferenceOfTwoArrays",

@@ -25,7 +25,6 @@ public class SolidDiamondPattern {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println("Enter any odd number");
 		Scanner scan = new Scanner(System.in);
 		int length = scan.nextInt();
