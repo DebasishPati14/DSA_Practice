@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MergeSortedLinkedList",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.MergeSortedLinkedList",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "MiddleLinkedList",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.MiddleLinkedList",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListStackAdapter",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.LinkedListStackAdapter",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "K_thLastElement",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.K_thLastElement",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "ReverseLinkedListPI",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.ReverseLinkedListPI",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "ReverseLinkedListDI",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.ReverseLinkedListDI",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "RemoveNode",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.RemoveNode",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "AddNode",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.AddNode",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "GetValue",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.GetValue",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "RemoveHeadNode",
+            "request": "launch",
+            "mainClass": "Dsa_Question/linked_list_questions.RemoveHeadNode",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "AddLastNode",
+            "request": "launch",
+            "mainClass": "Dsa_Question/linked_list_questions.AddLastNode",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
             "name": "DifferenceOfTwoArrays",
             "request": "launch",
             "mainClass": "Dsa_Question/com.array_questions.DifferenceOfTwoArrays",

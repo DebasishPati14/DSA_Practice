@@ -1,5 +1,6 @@
 package com.array_questions;
 
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class SpanOfArray {
