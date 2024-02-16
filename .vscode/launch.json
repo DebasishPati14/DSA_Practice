@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.searching_sorting.MergeSort",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.searching_sorting.InsertionSort",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.searching_sorting.SelectionSort",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.searching_sorting.BubbleSort",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
             "name": "DifferenceOfTwoArrays",
             "request": "launch",
             "mainClass": "Dsa_Question/com.array_questions.DifferenceOfTwoArrays",
