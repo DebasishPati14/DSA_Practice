@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxOfArray",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.MaxOfArray",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "DisplayingArray",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.DisplayingArray",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.TowerOfHanoi",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "DoubleRecursion",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.DoubleRecursion",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PowerOfNum",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.PowerOfNum",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.Factorial",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PrintDecreasingIncreasing",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.PrintDecreasingIncreasing",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PrintDecreasing",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.PrintDecreasing",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "Printdecreasing",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.Printdecreasing",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
             "name": "MergeSort",
             "request": "launch",
             "mainClass": "Dsa_Question/com.searching_sorting.MergeSort",
