@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubSequenceString",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.SubSequenceString",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "FindingIndices",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.FindingIndices",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "FIndingIndexFirstLast",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.FIndingIndexFirstLast",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
             "name": "MaxOfArray",
             "request": "launch",
             "mainClass": "Dsa_Question/com.recursion.MaxOfArray",
