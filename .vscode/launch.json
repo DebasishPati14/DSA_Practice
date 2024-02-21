@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KeypadCombination",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.KeypadCombination",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
             "name": "SubSequenceString",
             "request": "launch",
             "mainClass": "Dsa_Question/com.recursion.SubSequenceString",
