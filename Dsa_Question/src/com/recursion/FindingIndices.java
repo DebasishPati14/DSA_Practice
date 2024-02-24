@@ -7,7 +7,7 @@ public class FindingIndices {
 
         int[] foundIndices = findLastIndex(fakeArr, 15, fakeArr.length - 1, 0);
         for (int i : foundIndices) {
-            System.out.print("LastIndex: " + i);
+            System.out.println("Present Index At: " + i);
         }
     }
 

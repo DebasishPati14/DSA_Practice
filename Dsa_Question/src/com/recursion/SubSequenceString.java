@@ -6,10 +6,11 @@ public class SubSequenceString {
 
     public static void main(String[] args) {
 
-        String mainStr = "abc";
+        String mainStr = "abcdefgrst";
 
         ArrayList<String> subSequences = getSubsequence(mainStr, 0);
         System.out.println(subSequences);
+        System.out.println(subSequences.size());
 
     }
 
@@ -24,7 +25,7 @@ public class SubSequenceString {
         // subSq.add("" + mainString.charAt(index - 1));
         char ch = mainString.charAt(index);
         for (String st : subSq) {
-            System.out.println(mainString.charAt(index) + "In loop" + st);
+            System.out.println(mainString.charAt(index) + "In loop ->  " + st);
             retArrList.add("" + st);
             retArrList.add(ch + st);
         }
