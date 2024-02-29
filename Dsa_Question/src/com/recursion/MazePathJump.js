@@ -28,4 +28,4 @@ function getMazePathJump(sR, sC, dR, dC) {
     }
     return updatedPaths;
 }
-console.log(getMazePathJump(1, 1, 3, 2));
+console.log(getMazePathJump(1, 1, 3, 3));
