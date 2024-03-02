@@ -66,6 +66,21 @@ public class MergeSort implements SortNum {
         return arr[i] < arr[j];
     }
 
+    static int[] mergeSort1(int smallArr[], int firstIdx, int lastIdx) {
+
+        if (firstIdx == lastIdx) {
+            int[] constArray = new int[1];
+            constArray[0] = smallArr[firstIdx];
+
+            return constArray;
+        }
+        int middle = (firstIdx + lastIdx) / 2;
+        int[] firstSortedArray = mergeSort1(smallArr, firstIdx, middle);
+        int[] secondSortedArray = mergeSort1(smallArr, middle + 1, lastIdx);
+
+        return mergeTwoArray(firstSortedArray, secondSortedArray);
+    }
+
     public static void main(String[] args) {
         int[] arr = { 100, 4, -9, 7, 90 };
         int[] sortedFirstArr = { 1, 3, 5, 7, 9, 11, 13, 15 };
@@ -73,7 +88,7 @@ public class MergeSort implements SortNum {
 
         // int[] mergedArray = mergeTwoArray(sortedFirstArr, sortedSecondArr);
 
-        int[] mergedArray = mergeSort(arr, 0, arr.length - 1);
+        int[] mergedArray = mergeSort1(arr, 0, arr.length - 1);
         for (int num : mergedArray) {
             System.err.print(num + " ");
         }
