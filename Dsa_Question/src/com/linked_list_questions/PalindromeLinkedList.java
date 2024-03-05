@@ -1,26 +1,6 @@
 package com.linked_list_questions;
 
-/*
- 1. You are given a partially written LinkedList class.
- 
-2. Here is a list of existing functions: 
-2.1 addLast adds a new element with given value to the end of Linked List 
-2.2. display-Prints the elements of linked list from front to end in a single line. All elements are separated by space 
-2.3. size-Returns the number of elements in the linked list 
-2.4. removeFirst Removes the first element from Linked List 
-2.5. getFirst Returns the data of first element. 
-2.6 getLast()-Returns the data of last element 
-2.7. getAt Returns the data of element available at the index pasted 
-2.8. addFirst-adds a new element with given value in front of linked list 
-2.9. addAt adds a new element at a given index. 
-2.10. removeLast-removes the last element of linked list
-2.11. removeAt remove an element at a given index
-
-3. You are required to complete the body of reversed function The function should be an iterative function and should reverse the contents of inked list by changing the "data" property of nodes
- 
-4. Input and Output is managed for you.
- */
-public class ReverseLinkedListDI {
+public class PalindromeLinkedList {
     public static class Node {
         int data;
         Node next;
@@ -184,60 +164,41 @@ public class ReverseLinkedListDI {
             this.size--;
         }
 
-        void reverseListDI() {
-            if (this.size == 0) {
-                System.out.println("Sorry Linked List does not have anything");
-            } else if (this.size == 1) {
-                System.out.println("Sorry LinkedList has one element");
-            }
-            Node forwardNode = this.head;
-            Node backwardNode = this.head;
+        Node leftNode = head;
 
-            for (int i = 0, j = this.size() - 1; i < this.size(); i++, j--) {
-                if (i >= j) {
-                    break;
-                }
-                int temp = i;
-                while (temp < j) {
-                    backwardNode = backwardNode.next;
-                    temp++;
-                }
-                temp = backwardNode.data;
-                backwardNode.data = forwardNode.data;
-                forwardNode.data = temp;
-
-                forwardNode = forwardNode.next;
-                backwardNode = forwardNode;
+        boolean reverseListDataRecursive(Node node, int middleFlag) {
+            if (node == null) {
+                return true;
             }
+            boolean isPalindrome = reverseListDataRecursive(node.next, middleFlag + 1);
+
+            if (middleFlag > size() / 2) {
+                // System.out.println("Did it go " + leftNode.data + ", " + middleFlag + "" +
+                // node.data);
+                // int tempData = node.data;
+                // node.data = leftNode.data;
+                // leftNode.data = tempData;
+                if (isPalindrome && node.data != leftNode.data) {
+                    System.out.println("It's not palindrome!!!");
+                    return false;
+                }
+            }
+
+            leftNode = leftNode.next;
+            return isPalindrome;
         }
 
-        void reverseLinkedListN2() {
+        void checkPalindrome() {
             if (this.size == 0) {
                 System.out.println("Sorry Linked List does not have anything");
             } else if (this.size == 1) {
                 System.out.println("Sorry LinkedList has one element");
             }
 
-            else {
-                Node rightNode = this.head;
-                Node leftNode = this.head;
-                for (int i = 0, j = this.size() - 1; i < this.size; i++, j--) {
-                    if (j <= i) {
-                        break;
-                    }
-                    int temp = i;
-                    while (temp < j) {
-                        rightNode = rightNode.next;
-                        temp++;
-                    }
-
-                    temp = leftNode.data;
-                    leftNode.data = rightNode.data;
-                    rightNode.data = temp;
-
-                    rightNode = leftNode.next;
-                    leftNode = leftNode.next;
-                }
+            leftNode = this.head;
+            boolean isPalindrome = reverseListDataRecursive(this.head, 0);
+            if (isPalindrome) {
+                System.out.println("WooHoo... It not palindrome!!!");
             }
         }
 
@@ -251,36 +212,15 @@ public class ReverseLinkedListDI {
             return tempNode;
         }
 
-        void reverseLinkedListDataIterative() {
-            Node tempNode = this.head;
-            int backWardNum = this.size - 1;
-
-            while (backWardNum > this.size / 2) {
-                Node nod = getAtNode(backWardNum);
-                System.out.println(tempNode.data + " <-current= " + backWardNum + " =backward-> " + nod.data);
-                int tempValue = tempNode.data;
-                tempNode.data = nod.data;
-                nod.data = tempValue;
-                backWardNum--;
-                tempNode = tempNode.next;
-
-            }
-        }
     }
 
     public static void main(String[] args) {
-        int[] arrayList = { 0, 100, 200, 300, 400, 500, 600 };
+        int[] arrayList = { 600, 500, 400, 300, 200, 100, 0, 100, 200, 300, 400, 500, 600 };
         LinkedList ll = new LinkedList();
         for (int item : arrayList) {
             ll.addLast(item);
         }
         ll.display();
-        ll.reverseListDI();
-        ll.display();
-        ll.reverseLinkedListN2();
-        ll.display();
-        ll.reverseLinkedListDataIterative();
-        ll.display();
-
+        ll.checkPalindrome();
     }
 }

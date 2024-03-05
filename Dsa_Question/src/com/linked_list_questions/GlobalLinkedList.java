@@ -1,5 +1,7 @@
 package com.linked_list_questions;
 
+import com.linked_list_questions.AddLastNode.Node;
+
 class GlobalLinkedList {
     private Node head;
     private Node tail;
@@ -75,5 +77,19 @@ class GlobalLinkedList {
                 firstListNode = firstListNode.next;
             }
         }
+    }
+
+    public void removeDuplicateFromSortedList() {
+        Node node = this.head;
+        while (node != null) {
+            int currentData = node.data;
+            if (node.next != null && node.next.data == currentData) {
+                node.next = node.next.next;
+                this.size--;
+            } else {
+                node = node.next;
+            }
+        }
+        this.display();
     }
 }

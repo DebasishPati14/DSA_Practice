@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AddLinkedLists",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.AddLinkedLists",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "FoldLinkedList",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.FoldLinkedList",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeLinkedList",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.PalindromeLinkedList",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "ReverseLinkedListDataRecursive",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.ReverseLinkedListDataRecursive",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "ReverseLinkedListRecursive",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.ReverseLinkedListRecursive",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "Kth_Rotation",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.Kth_Rotation",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "RotateArray",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.array_questions.RotateArray",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "OddEvenArrangement",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.OddEvenArrangement",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "DuplicateFromSortedList",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.DuplicateFromSortedList",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.linked_list_questions.MergeSort",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
             "name": "MergeSort",
             "request": "launch",
             "mainClass": "Dsa_Question/com.searching_sorting.MergeSort",
