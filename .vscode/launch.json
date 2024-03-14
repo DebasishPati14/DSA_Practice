@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BuildingQueue",
+            "request": "launch",
+            "mainClass": "Dsa_Question/queue_questions.BuildingQueue",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "BuildingQueue",
+            "request": "launch",
+            "mainClass": "Dsa_Question/queue_questions.BuildingQueue",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
             "name": "MinimumStack",
             "request": "launch",
             "mainClass": "Dsa_Question/com.stack_questions.MinimumStack",
