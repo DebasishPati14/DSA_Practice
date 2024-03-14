@@ -36,7 +36,7 @@ public class SolidDiamondPattern {
 				System.out.print("\t");
 			}
 			for (int x = 1; x <= step; x++) {
-				System.out.print("*\t");
+				System.out.print("***\t");
 			}
 			// System.out.print("* ");
 			// System.out.println("("+space+","+step+")");

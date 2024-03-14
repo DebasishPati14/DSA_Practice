@@ -20,7 +20,8 @@ import java.util.Stack;
 public class LargestAreaHistogram {
     public static void main(String[] args) {
         // int[] arrayElements = { 2, 7, 19, 9, -4, 6, 10, 20 };
-        int[] arrayElements = { 2, 5, 4, 5, 1, 6 };
+        // int[] arrayElements = { 2, 5, 4, 5, 1, 6 };
+        int[] arrayElements = { 6, 2, 5, 4, 5, 1, 6 };
         int[] leftNSE = nextSmallerEleToLeft(arrayElements);
         int[] rightNSE = nextSmallerEleToRight(arrayElements);
 
@@ -53,7 +54,6 @@ public class LargestAreaHistogram {
             }
 
             stack.push(i);
-            System.out.println(stack);
         }
 
         return resultArray;

@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumStack",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.MinimumStack",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "BuildingStack",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.BuildingStack",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "SmallestNumberPattern",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.SmallestNumberPattern",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "MergeOverlappingTime",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.MergeOverlappingTime",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "CelebrityProblem",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.CelebrityProblem",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PrefixExpression",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.PrefixExpression",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PostfixExpression",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.PostfixExpression",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PrefixPostfixConversion",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.PrefixPostfixConversion",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "InfixEvaluation",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.InfixEvaluation",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "SlidingWindowMaximum",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.SlidingWindowMaximum",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "NGSET_LR",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.stack_questions.NGSET_LR",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
             "name": "LargestAreaHistogram",
             "request": "launch",
             "mainClass": "Dsa_Question/com.stack_questions.LargestAreaHistogram",

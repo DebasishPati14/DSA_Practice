@@ -32,6 +32,32 @@ public class StockSpan {
         for (int integer : resultArray) {
             System.out.print(integer + "  ");
         }
+        System.out.println();
+        getStockSpansSecond(arrayElements);
+    }
+
+    static void getStockSpansSecond(int[] arrayElements) {
+        int[] resultsArray = new int[arrayElements.length];
+        Stack<Integer> stack = new Stack<>();
+        resultsArray[0] = 1;
+        stack.push(0);
+
+        for (int i = 1; i < resultsArray.length; i++) {
+            if (stack.size() > 0 && arrayElements[stack.peek()] < arrayElements[i]) {
+                stack.pop();
+            }
+            if (stack.size() == 0) {
+                resultsArray[i] = i + 1;
+            } else {
+                System.out.println("Peak: " + arrayElements[stack.peek()]);
+                resultsArray[i] = i - stack.peek();
+            }
+            stack.push(i);
+        }
+
+        for (Integer integer : resultsArray) {
+            System.out.print(integer + ", ");
+        }
     }
 
     static int[] getStockSpan(int[] arrayElements) {
