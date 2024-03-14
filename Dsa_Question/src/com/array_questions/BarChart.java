@@ -25,6 +25,7 @@ public class BarChart {
         System.out.printf("Enter elements of array: ");
         int[] arrayOfInt = getArrayInputs(sizeOfArray);
         printBarChartOFArray(arrayOfInt);
+        scan.close();
     }
 
     private static void printBarChartOFArray(int[] arrayOfInt) {
