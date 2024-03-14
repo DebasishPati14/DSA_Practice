@@ -6,6 +6,223 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KnightTour",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.KnightTour",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "N_Queens",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.N_Queens",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "FloodFill",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.FloodFill",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "TargetSumOfArray",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.TargetSumOfArray",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PrintEncodings",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.PrintEncodings",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PrintPermutations",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.PrintPermutations",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PrintMazePathJump",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.PrintMazePathJump",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PrintMazePath",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.PrintMazePath",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PrintStairPaths",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.PrintStairPaths",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PrintKeypadCombination",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.PrintKeypadCombination",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PrintSubSequence",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.PrintSubSequence",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "MazePathJump",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.MazePathJump",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "MazePath",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.MazePath",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "StairCaseLanding",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.StairCaseLanding",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "KeypadCombination",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.KeypadCombination",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "SubSequenceString",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.SubSequenceString",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "FindingIndices",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.FindingIndices",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "FIndingIndexFirstLast",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.FIndingIndexFirstLast",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "MaxOfArray",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.MaxOfArray",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "DisplayingArray",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.DisplayingArray",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.TowerOfHanoi",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "DoubleRecursion",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.DoubleRecursion",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PowerOfNum",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.PowerOfNum",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.Factorial",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PrintDecreasingIncreasing",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.PrintDecreasingIncreasing",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "PrintDecreasing",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.PrintDecreasing",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "Printdecreasing",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.recursion.Printdecreasing",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.searching_sorting.MergeSort",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.searching_sorting.InsertionSort",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.searching_sorting.SelectionSort",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "Dsa_Question/com.searching_sorting.BubbleSort",
+            "projectName": "Dsa_Question"
+        },
+        {
+            "type": "java",
             "name": "BuildingQueue",
             "request": "launch",
             "mainClass": "Dsa_Question/queue_questions.BuildingQueue",
